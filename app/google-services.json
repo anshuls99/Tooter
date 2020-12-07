@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869884545626",
+    "project_id": "tooter-60c77",
+    "storage_bucket": "tooter-60c77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869884545626:android:fb3117f44fee2ca9496663",
+        "android_client_info": {
+          "package_name": "com.example.tooter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869884545626-fd68289lm2pv9m6sdcqprpgdu972alf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnhD7lrkhQqURd27dNCCupSNrnt9UQ8DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869884545626-fd68289lm2pv9m6sdcqprpgdu972alf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
