@@ -1,7 +1,7 @@
 package com.example.tooter
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.tooter.daos.PostDao
 import kotlinx.android.synthetic.main.activity_create_post.*
 
@@ -15,9 +15,9 @@ class CreatePostActivity : AppCompatActivity() {
 
         postDao = PostDao()
 
-        postButton.setOnClickListener{
+        postButton.setOnClickListener {
             val input = postInput.text.toString().trim()
-            if(input.isNotEmpty()) {
+            if (input.isNotEmpty()) {
                 postDao.addPost(input)
                 finish()
             }
